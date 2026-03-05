@@ -11,6 +11,7 @@ import java.util.List;
 @Repository
 public interface ProductRepo extends JpaRepository<Product,Integer> {
 
+    //HQL query for searching
     @Query( "SELECT p from Product p WHERE " +
             "LOWER(p.name) LIKE LOWER(CONCAT('%', :keyword, '%')) OR " +
             "LOWER(p.description) LIKE LOWER(CONCAT('%', :keyword, '%')) OR " +
