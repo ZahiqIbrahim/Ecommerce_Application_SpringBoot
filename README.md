@@ -1,7 +1,7 @@
 SpringEcom - E-Commerce REST API
 A RESTful API backend for an e-commerce platform built with Spring Boot and Java.
 This application provides comprehensive product management capabilities including CRUD operations, 
-image handling, and advanced search functionality.
+image handling, and advanced search functionality, also keeps logs using AOP concepts. 
 
 Features
 Product Management: Full CRUD operations for products
@@ -10,6 +10,7 @@ Advanced Search: Search products by name, description, brand, or category
 RESTful API: Clean REST endpoints with proper HTTP status codes
 Database Integration: PostgreSQL with JPA/Hibernate
 Cross-Origin Support: CORS enabled for frontend integration
+Logs and Monitoring: AOP concepts implimented to kepp record and observe performance of the application in the application.logs file
 
 
 Tech Stack
