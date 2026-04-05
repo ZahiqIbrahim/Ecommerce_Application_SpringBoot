@@ -4,7 +4,7 @@ SpringEcom is a RESTful API backend for an e-commerce platform built with Spring
 
 ---
 
-## 🚀 Features
+##  Features
 
 * **Product Management:** Full CRUD operations for products
 * **Image Upload:** Support for product images with multipart file upload
@@ -16,7 +16,7 @@ SpringEcom is a RESTful API backend for an e-commerce platform built with Spring
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * Java
 * Spring Boot
@@ -27,7 +27,7 @@ SpringEcom is a RESTful API backend for an e-commerce platform built with Spring
 
 ---
 
-## 🗄️ Database Setup
+##  Database Setup
 
 1. Install PostgreSQL
 2. Create a database (default name: `zahiq`)
@@ -41,7 +41,7 @@ spring.datasource.password=your_password
 
 ---
 
-## 📖 API Endpoints
+##  API Endpoints
 
 **Base URL:** `http://localhost:8080/api`
 
@@ -55,9 +55,9 @@ spring.datasource.password=your_password
 | `DELETE` | `/product/{id}` | Delete product |
 | `GET` | `/products/search` | Search products by keyword |
 
----
+--
 
-## 📬 Examples
+##  Examples
 
 ### Get All Products
 ```bash
@@ -122,8 +122,3 @@ GET /api/products/search?keyword=laptop
 
 ---
 
-## 📌 TODO
-
-* Add pagination support for product listings
-* Add authentication and authorization (Spring Security / JWT)
-* Add order and cart management endpoints
